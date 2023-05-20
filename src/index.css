@@ -32,7 +32,7 @@ html {
       rgba(24, 23, 24, 0) 50%,
       #181718 100%
     ),
-    url("../../public/abstract-bg.webp");
+    url("./assets/abstract-bg.webp");
   background-size: cover;
   background-position: center;
 }
