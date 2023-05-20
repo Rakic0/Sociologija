@@ -1,0 +1,74 @@
+main {
+  min-height: calc(100vh - 57.4rem);
+}
+
+.rich * {
+  margin: 1rem 0;
+}
+
+.rich p,
+.rich pre {
+  @apply text-22;
+  display: inline-block;
+}
+
+.rich li {
+  @apply text-22;
+}
+
+.rich h1 {
+  font-size: 3.75rem;
+}
+
+.rich h2 {
+  font-size: 3.5rem;
+}
+
+.rich h3 {
+  font-size: 3.25rem;
+}
+
+.rich h4 {
+  font-size: 3rem;
+}
+
+.rich h5 {
+  font-size: 2.75rem;
+}
+
+.rich h6 {
+  font-size: 2.5rem;
+}
+
+.rich h1,
+.rich h2,
+.rich h3,
+.rich h4,
+.rich h5,
+.rich h6 {
+  text-align: center;
+  display: inline-block;
+}
+
+.rich strong,
+.rich em {
+  display: inline-block;
+}
+
+.rich ol {
+  list-style: decimal;
+  margin-left: 7rem;
+}
+
+.rich ul {
+  list-style: disc;
+  margin-left: 7rem;
+}
+
+.rich a {
+  text-decoration: underline;
+}
+
+.rich a:hover {
+  text-decoration: none;
+}
