@@ -19,6 +19,7 @@ export default {
       21: "2.1rem",
       22: "2.2rem",
       35: "3.2rem",
+      51: "5.1rem",
       65: "6.5rem",
     },
     extend: {},

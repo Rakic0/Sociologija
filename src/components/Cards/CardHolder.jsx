@@ -10,7 +10,7 @@ const CardHolder = () => {
   if (!documents) return;
 
   return (
-    <div className="holder-linear text-white h-[40rem] w-[80rem] mx-auto rounded-[2.1rem] p-8">
+    <div className="holder-linear text-white h-[40rem] md:w-[80rem] w-[80%] mx-auto rounded-[2.1rem] p-8">
       <div className="relative">
         <SmallHeading className="isolate absolute top-0 left-36 z-10">
           Popularno

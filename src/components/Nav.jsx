@@ -8,8 +8,6 @@ const Nav = () => {
 
   const onClick = () => {
     setIsOpened((prev) => !prev);
-
-    console.log(isOpened);
   };
 
   return (
@@ -25,15 +23,14 @@ const Nav = () => {
         <div className="w-[30px]"></div>
       </nav>
       <div
-        className={`bg-thunder-400 fixed left-0 top-0 w-[49.9rem] h-screen z-50 pt-1 px-4 transition-all duration-500 ${
-          isOpened ? "translate-x-0" : "-translate-x-[50rem]"
+        className={`bg-thunder-400 fixed left-0 top-0 w-full sm:w-[49.9rem] h-screen z-50 pt-1 px-4 transition-all duration-500 ${
+          isOpened ? "translate-x-0" : "-translate-x-[100rem]"
         }`}
       >
         \{/* Početak SVG-a */}
         <div onClick={onClick} className="cursor-pointer">
           <svg
-            width="36"
-            height="35"
+            className="w-10 h-10"
             viewBox="0 0 36 35"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"

@@ -19,9 +19,15 @@ html {
   font-family: "Poppins", sans-serif;
 }
 
-@media only screen and(max-width: 48em) {
+@media only screen and (max-width: 48em) {
   html {
     font-size: calc(100vw / 768 * 10);
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  html {
+    font-size: calc(100vw / 425 * 10);
   }
 }
 

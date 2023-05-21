@@ -24,8 +24,6 @@ const Searchbar = () => {
     );
   }, [searchValue]);
 
-  console.log(result);
-
   return (
     <form className="relative max-w-min" onSubmit={(e) => handleSubmit(e)}>
       <div className="relative">
