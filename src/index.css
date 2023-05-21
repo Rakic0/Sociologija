@@ -58,3 +58,10 @@ html {
 .ReactCollapse--collapse {
   transition: height 500ms;
 }
+
+.a {
+  fill: #fff;
+}
+.b {
+  fill: #ef3f40;
+}
